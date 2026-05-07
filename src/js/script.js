@@ -51,6 +51,7 @@ UI.Button['submit'].addEventListener('click', (event) => {
             <h3 class="post:title">${postTitle}</h3>
             <p class="post:content">${postBody}</p>
         </div>
+        <br />
     `;
 
     UI['postContainer'].insertAdjacentHTML('afterbegin', post);
